@@ -7,7 +7,7 @@ setup(
     version=telegramlogger.__version__,
     packages=find_packages(),
     install_requires=[
-        'requests',
+        # 'requests',
     ],
     long_description=open(join(dirname(__file__), 'README.md')).read(),
     entry_points={
